@@ -56,7 +56,7 @@ export default function Services() {
             </a>
             <Link
               href="/contact"
-              className="px-8 py-4 border-2 border-accent text-accent font-bold rounded-lg hover:bg-accent/10 transition-all"
+              className="px-8 py-4 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
             >
               MESSAGE US
             </Link>
