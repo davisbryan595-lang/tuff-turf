@@ -83,7 +83,7 @@ export default function Returns() {
         <div className="mt-12">
           <Link
             href="/"
-            className="inline-block px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+            className="inline-block px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
           >
             Back to Home
           </Link>

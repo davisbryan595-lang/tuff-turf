@@ -37,14 +37,14 @@ export default function CheckoutCancel() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/checkout"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
             >
               <ArrowLeft size={18} />
               Return to Checkout
             </Link>
             <Link
               href="/merch"
-              className="px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+              className="px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
             >
               Continue Shopping
             </Link>
