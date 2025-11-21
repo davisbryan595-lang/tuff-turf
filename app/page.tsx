@@ -25,7 +25,7 @@ export default function Home() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url(https://images.pexels.com/photos/1250649/pexels-photo-1250649.jpeg)",
+            backgroundImage: "url(https://images.pexels.com/photos/1677573/pexels-photo-1677573.jpeg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             transform: `translateY(${scrollY * 0.5}px)`,
