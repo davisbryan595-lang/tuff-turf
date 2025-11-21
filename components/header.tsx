@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 w-full z-40 bg-background/95 backdrop-blur-md border-b border-border">
+      <header className="fixed top-0 w-full z-40 bg-background/70 backdrop-blur-xl border-b border-border/30 shadow-[0_8px_32px_rgba(0,212,255,0.1)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
@@ -61,14 +61,14 @@ const Header = () => {
               >
                 <ShoppingCart size={24} />
                 {itemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-accent text-primary text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-1 -right-1 bg-accent text-black text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
                     {itemCount}
                   </span>
                 )}
               </button>
               <Link
                 href="/services"
-                className="px-6 py-2 bg-accent text-primary rounded-md font-bold text-sm hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all duration-300 hover:scale-105"
+                className="px-6 py-2 bg-accent text-black rounded-md font-bold text-sm hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all duration-300 hover:scale-105"
               >
                 BOOK NOW
               </Link>
@@ -110,7 +110,7 @@ const Header = () => {
               <div className="px-4 py-3">
                 <Link
                   href="/services"
-                  className="block w-full text-center px-4 py-2 bg-accent text-primary rounded-md font-bold text-sm hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+                  className="block w-full text-center px-4 py-2 bg-accent text-black rounded-md font-bold text-sm hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
                   onClick={() => setIsOpen(false)}
                 >
                   BOOK NOW
