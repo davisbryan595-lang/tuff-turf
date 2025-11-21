@@ -51,6 +51,7 @@ export default function CheckoutCancel() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   )
 }
