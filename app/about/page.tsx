@@ -139,7 +139,7 @@ export default function About() {
         <div className="mt-12 text-center">
           <Link
             href="/merch"
-            className="inline-block px-8 py-4 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105"
+            className="inline-block px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105"
           >
             Explore Full Collection
           </Link>
@@ -186,13 +186,13 @@ export default function About() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/services"
-            className="px-8 py-4 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
+            className="px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
           >
             Book a Service
           </Link>
           <Link
             href="/merch"
-            className="px-8 py-4 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
+            className="px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
           >
             Shop Merch
           </Link>

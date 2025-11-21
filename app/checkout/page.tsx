@@ -88,7 +88,7 @@ export default function Checkout() {
           <p className="text-xl text-gray-300 mb-8">Your cart is empty</p>
           <Link
             href="/merch"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
           >
             <ArrowLeft size={18} />
             Continue Shopping
@@ -219,7 +219,7 @@ export default function Checkout() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full px-8 py-4 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50 flex items-center justify-center gap-2"
+                className="w-full px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50 flex items-center justify-center gap-2"
               >
                 {loading ? (
                   <>
