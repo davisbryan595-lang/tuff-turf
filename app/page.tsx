@@ -65,8 +65,8 @@ export default function Home() {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/shop"
-              className="px-8 py-4 border-2 border-accent text-accent font-bold text-lg rounded-lg hover:bg-accent/10 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+              href="/merch"
+              className="px-8 py-4 border-2 border-accent bg-accent text-primary font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
             >
               SHOP MERCH
               <Play size={20} />
