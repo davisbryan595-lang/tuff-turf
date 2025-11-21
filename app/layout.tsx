@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
+import { CartProvider } from "@/lib/cart-context"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -35,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className="bg-background text-foreground">
-        {children}
+        <CartProvider>{children}</CartProvider>
         <Analytics />
       </body>
     </html>
