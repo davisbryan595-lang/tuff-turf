@@ -176,7 +176,7 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+              className="px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
             >
               Subscribe
             </button>
