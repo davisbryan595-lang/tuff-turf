@@ -36,17 +36,6 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative h-full flex flex-col items-center justify-center px-4 text-center z-10">
-          {/* Logo with Glow */}
-          <div className="mb-8 animate-float-in">
-            <div className="glow-pulse w-32 h-32 md:w-48 md:h-48 mx-auto">
-              <img
-                src="/images/tuff-removebg-preview.png"
-                alt="Tuff Turf Entertainment Logo"
-                className="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(0,212,255,0.8)]"
-              />
-            </div>
-          </div>
-
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4 animate-slide-in-left">
             TUFF TURF
