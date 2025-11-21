@@ -10,55 +10,55 @@ export default function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/2345342/pexels-photo-2345342.jpeg",
       alt: "Live Performance",
       title: "Main Stage Performance",
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/34766239/pexels-photo-34766239.jpeg",
       alt: "Crowd Energy",
       title: "Crowd in Motion",
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg",
       alt: "Studio Session",
       title: "Behind the Scenes Studio",
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/2716728/pexels-photo-2716728.jpeg",
       alt: "Event Setup",
       title: "Event Production",
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1516280440614-37939635fbb1?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
       alt: "Artist Performance",
       title: "Spotlight Performance",
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1501612780353-7e5c60a05a20?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/2716728/pexels-photo-2716728.jpeg",
       alt: "Mix Console",
       title: "Professional Sound",
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
       alt: "Festival Stage",
       title: "Festival Action",
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/34766239/pexels-photo-34766239.jpeg",
       alt: "Crowd Control",
       title: "Crowd Connection",
     },
     {
       id: 9,
-      src: "https://images.unsplash.com/photo-1532618025503-afd699f809b3?w=800&h=800&fit=crop",
+      src: "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg",
       alt: "Team Work",
       title: "Production Team",
     },
@@ -153,7 +153,7 @@ export default function Gallery() {
               <button
                 onClick={prevImage}
                 disabled={selectedImage === 0}
-                className="p-3 bg-muted hover:bg-accent hover:text-primary rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-3 bg-muted hover:bg-accent hover:text-accent-foreground rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 aria-label="Previous"
               >
                 <ChevronLeft size={24} />
@@ -161,7 +161,7 @@ export default function Gallery() {
               <button
                 onClick={nextImage}
                 disabled={selectedImage === galleryImages.length - 1}
-                className="p-3 bg-muted hover:bg-accent hover:text-primary rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-3 bg-muted hover:bg-accent hover:text-accent-foreground rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 aria-label="Next"
               >
                 <ChevronRight size={24} />
