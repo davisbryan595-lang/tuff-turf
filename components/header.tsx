@@ -31,7 +31,7 @@ const Header = () => {
                 <img
                   src="/images/WhatsApp_Image_2025-11-22_at_03.26.33_4eb55672-removebg-preview.png"
                   alt="Tuff Turf Entertainment Logo"
-                  className="w-full h-full object-contain transition-all duration-300"
+                  className="w-20 h-20 object-contain transition-all duration-300"
                 />
               </div>
             </Link>
