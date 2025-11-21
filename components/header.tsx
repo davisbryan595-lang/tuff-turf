@@ -28,14 +28,13 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-10 h-10">
+              <div className="relative w-16 h-16">
                 <img
                   src="/images/tuff-removebg-preview.png"
                   alt="Tuff Turf Entertainment Logo"
                   className="w-full h-full object-contain hover:drop-shadow-[0_0_15px_rgba(0,212,255,0.5)] transition-all duration-300"
                 />
               </div>
-              <span className="text-xl font-bold hidden sm:inline text-foreground">TUFF TURF</span>
             </Link>
 
             {/* Desktop Navigation */}
