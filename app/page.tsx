@@ -250,6 +250,87 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Form Section */}
+      <section className="py-20 md:py-32 px-4 max-w-7xl mx-auto">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-5xl md:text-6xl font-black text-center mb-4 tracking-tight">
+            LET'S <span className="text-accent">CONNECT</span>
+          </h2>
+          <p className="text-center text-xl text-gray-300 mb-12">
+            Have a project in mind? Reach out and let's make it happen.
+          </p>
+          <form className="space-y-6">
+            <div>
+              <label className="block text-sm font-bold mb-2">NAME</label>
+              <input
+                type="text"
+                name="name"
+                required
+                className="w-full px-6 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none transition-all text-foreground placeholder-gray-500"
+                placeholder="Your Name"
+              />
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <label className="block text-sm font-bold mb-2">EMAIL</label>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  className="w-full px-6 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none transition-all text-foreground placeholder-gray-500"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-bold mb-2">PHONE</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  className="w-full px-6 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none transition-all text-foreground placeholder-gray-500"
+                  placeholder="(555) 123-4567"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-bold mb-2">SERVICE INQUIRY</label>
+              <select
+                name="service"
+                required
+                className="w-full px-6 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none transition-all text-foreground"
+              >
+                <option value="">Select a service...</option>
+                <option value="booking">Live Performance Booking</option>
+                <option value="studio">Studio Time & Production</option>
+                <option value="event">Event Hosting / Takeover</option>
+                <option value="merch">Merch Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-bold mb-2">MESSAGE</label>
+              <textarea
+                name="message"
+                required
+                rows={4}
+                className="w-full px-6 py-3 bg-muted border border-border rounded-lg focus:border-accent focus:outline-none transition-all text-foreground placeholder-gray-500 resize-none"
+                placeholder="Tell us about your project..."
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full px-8 py-4 bg-accent text-accent-foreground font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105 flex items-center justify-center gap-2"
+            >
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </section>
+
       <Footer />
     </main>
   )
