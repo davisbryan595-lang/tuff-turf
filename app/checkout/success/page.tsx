@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import Header from "@/components/header"
+import { Footer } from "@/components/footer"
 import { CheckCircle, Download, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
