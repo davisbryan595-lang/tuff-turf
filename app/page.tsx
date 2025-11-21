@@ -95,6 +95,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Promo Banner */}
+      <section className="py-6 px-4 bg-accent/20 border-b border-accent">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-lg font-bold">
+            🎉 Use code <span className="text-accent">TUFF10</span> for 10% off your first order!
+          </p>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="py-20 md:py-32 px-4 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
