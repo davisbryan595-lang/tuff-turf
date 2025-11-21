@@ -63,7 +63,7 @@ export default function Merch() {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop"
+              src="https://images.pexels.com/photos/34830019/pexels-photo-34830019.jpeg"
               alt="Merch Collection"
               className="w-full h-full object-cover rounded-lg shadow-2xl"
             />
