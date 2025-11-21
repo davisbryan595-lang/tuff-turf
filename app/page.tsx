@@ -59,14 +59,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 animate-float-in" style={{ animationDelay: "0.4s" }}>
             <Link
               href="/contact"
-              className="px-8 py-4 bg-accent text-primary font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group"
+              className="px-8 py-4 bg-accent text-black font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group"
             >
               BOOK US NOW
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
               href="/merch"
-              className="px-8 py-4 border-2 border-accent bg-accent text-primary font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+              className="px-8 py-4 border-2 border-accent bg-accent text-black font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
             >
               SHOP MERCH
               <Play size={20} />
@@ -112,7 +112,7 @@ export default function Home() {
             </p>
             <Link
               href="/services"
-              className="inline-block px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all duration-300"
+              className="inline-block px-8 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all duration-300"
             >
               EXPLORE SERVICES
             </Link>
