@@ -8,6 +8,7 @@ import { CheckCircle, Download, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import stripe from "@/lib/stripe"
+export const dynamic = 'force-dynamic';
 
 export default function CheckoutSuccess() {
   const searchParams = useSearchParams()
