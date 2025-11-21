@@ -5,7 +5,6 @@ import { useState } from "react"
 import { Menu, X, ShoppingCart } from "lucide-react"
 import { useCart } from "@/lib/cart-context"
 import { CartDrawer } from "./cart-drawer"
-import { ThemeToggle } from "./theme-toggle"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -53,7 +52,6 @@ const Header = () => {
 
             {/* Right Section - CTA & Cart */}
             <div className="hidden md:flex items-center gap-4">
-              <ThemeToggle />
               <button
                 onClick={() => setIsCartOpen(true)}
                 className="relative p-2 text-foreground hover:text-accent transition-colors"
