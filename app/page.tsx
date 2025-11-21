@@ -127,69 +127,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Products Carousel */}
-      <section className="py-20 md:py-32 px-4 max-w-7xl mx-auto">
-        <h2 className="text-5xl md:text-6xl font-black text-center mb-4 tracking-tight">
-          FEATURED <span className="text-accent">PRODUCTS</span>
-        </h2>
-        <p className="text-center text-xl text-gray-300 mb-16">Limited edition drops available now</p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-          {[
-            {
-              id: "hoodie-black",
-              name: "Tuff Turf Hoodie",
-              price: 65,
-              image: "https://images.pexels.com/photos/34830019/pexels-photo-34830019.jpeg",
-              badge: "Premium",
-            },
-            {
-              id: "tee-hardest",
-              name: "Performance Tee",
-              price: 35,
-              image: "https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg",
-              badge: "Tuff Turf Certified",
-            },
-            {
-              id: "cap-snapback",
-              name: "Studio Cap",
-              price: 25,
-              image: "https://images.pexels.com/photos/34830019/pexels-photo-34830019.jpeg",
-              badge: "Limited Stock",
-            },
-          ].map((product, idx) => (
-            <Link
-              key={product.id}
-              href="/merch"
-              className="group rounded-lg overflow-hidden border border-border hover:border-accent transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,212,255,0.3)] animate-float-in"
-              style={{ animationDelay: `${idx * 0.1}s` }}
-            >
-              <div className="relative h-80 overflow-hidden bg-muted">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute top-4 right-4 bg-accent text-primary px-4 py-2 rounded-full font-bold text-xs">
-                  {product.badge}
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors">{product.name}</h3>
-                <p className="text-3xl font-bold text-accent">${product.price.toFixed(2)}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-        <div className="text-center">
-          <Link
-            href="/merch"
-            className="inline-block px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105"
-          >
-            Shop Full Collection
-          </Link>
-        </div>
-      </section>
-
       {/* Services Preview */}
       <section className="py-20 md:py-32 px-4 bg-muted">
         <div className="max-w-7xl mx-auto">
