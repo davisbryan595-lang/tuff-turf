@@ -35,9 +35,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning>
       <body className="bg-background text-foreground">
-        <CartProvider>{children}</CartProvider>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <CartProvider>{children}</CartProvider>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
