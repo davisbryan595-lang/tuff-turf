@@ -27,9 +27,9 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-16 h-16 drop-shadow-[0_0_20px_rgba(0,212,255,0.6)] group-hover:drop-shadow-[0_0_30px_rgba(0,212,255,0.9)] transition-all duration-300">
+              <div className="relative w-20 h-20 drop-shadow-[0_0_20px_rgba(0,212,255,0.6)] group-hover:drop-shadow-[0_0_30px_rgba(0,212,255,0.9)] transition-all duration-300">
                 <img
-                  src="/images/tuff-removebg-preview.png"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2Fef0053de53cd4197bb4509e79d2188b9?format=webp&width=800"
                   alt="Tuff Turf Entertainment Logo"
                   className="w-full h-full object-contain transition-all duration-300"
                 />
