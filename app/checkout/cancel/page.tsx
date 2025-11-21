@@ -44,7 +44,7 @@ export default function CheckoutCancel() {
             </Link>
             <Link
               href="/merch"
-              className="px-8 py-3 border-2 border-accent text-accent font-bold rounded-lg hover:bg-accent/10 transition-all"
+              className="px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
             >
               Continue Shopping
             </Link>
