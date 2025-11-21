@@ -54,6 +54,7 @@ const Header = () => {
 
             {/* Right Section - CTA & Cart */}
             <div className="hidden md:flex items-center gap-4">
+              <ThemeToggle />
               <button
                 onClick={() => setIsCartOpen(true)}
                 className="relative p-2 text-foreground hover:text-accent transition-colors"
