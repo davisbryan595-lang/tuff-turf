@@ -1,6 +1,7 @@
 "use client"
 
 import Header from "@/components/header"
+import { Footer } from "@/components/footer"
 import { ArrowRight, Play } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
