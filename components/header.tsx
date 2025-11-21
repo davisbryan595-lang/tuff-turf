@@ -29,7 +29,7 @@ const Header = () => {
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-16 h-16 drop-shadow-[0_0_20px_rgba(0,212,255,0.6)] group-hover:drop-shadow-[0_0_30px_rgba(0,212,255,0.9)] transition-all duration-300">
                 <img
-                  src="/images/tuff-removebg-preview.png"
+                  src="/images/WhatsApp_Image_2025-11-22_at_03.26.33_4eb55672-removebg-preview.png"
                   alt="Tuff Turf Entertainment Logo"
                   className="w-full h-full object-contain transition-all duration-300"
                 />
