@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react"
 import Header from "@/components/header"
+import { Footer } from "@/components/footer"
 import { useCart } from "@/lib/cart-context"
 import Link from "next/link"
 import { ArrowLeft, Loader2 } from "lucide-react"
