@@ -1,6 +1,7 @@
 "use client"
 
 import Header from "@/components/header"
+import { Footer } from "@/components/footer"
 import { AlertCircle, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
