@@ -54,7 +54,7 @@ export const CartDrawer = ({ isOpen, onClose }: { isOpen: boolean; onClose: () =
               <Link
                 href="/merch"
                 onClick={onClose}
-                className="mt-4 px-6 py-2 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+                className="mt-4 px-6 py-2 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
               >
                 Continue Shopping
               </Link>
@@ -126,7 +126,7 @@ export const CartDrawer = ({ isOpen, onClose }: { isOpen: boolean; onClose: () =
                   <button
                     onClick={handleApplyPromo}
                     disabled={!!activePromoCode}
-                    className="px-4 py-2 bg-accent text-primary font-bold text-sm rounded hover:shadow-[0_0_15px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50"
+                    className="px-4 py-2 bg-accent text-accent-foreground font-bold text-sm rounded hover:shadow-[0_0_15px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50"
                   >
                     Apply
                   </button>
@@ -157,7 +157,7 @@ export const CartDrawer = ({ isOpen, onClose }: { isOpen: boolean; onClose: () =
               <Link
                 href="/checkout"
                 onClick={onClose}
-                className="block w-full text-center px-6 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all"
+                className="block w-full text-center px-6 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all"
               >
                 Proceed to Checkout
               </Link>

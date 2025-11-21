@@ -25,7 +25,7 @@ export default function Home() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1920&h=1080&fit=crop)",
+            backgroundImage: "url(https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             transform: `translateY(${scrollY * 0.5}px)`,
@@ -59,14 +59,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 animate-float-in" style={{ animationDelay: "0.4s" }}>
             <Link
               href="/contact"
-              className="px-8 py-4 bg-accent text-primary font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group"
+              className="px-8 py-4 bg-accent text-accent-foreground font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group"
             >
               BOOK US NOW
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
               href="/merch"
-              className="px-8 py-4 border-2 border-accent bg-accent text-primary font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+              className="px-8 py-4 border-2 border-accent bg-accent text-accent-foreground font-bold text-lg rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
             >
               SHOP MERCH
               <Play size={20} />
@@ -112,14 +112,14 @@ export default function Home() {
             </p>
             <Link
               href="/services"
-              className="inline-block px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all duration-300"
+              className="inline-block px-8 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all duration-300"
             >
               EXPLORE SERVICES
             </Link>
           </div>
           <div className="animate-slide-in-right">
             <img
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop"
+              src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg"
               alt="Studio Equipment"
               className="w-full h-full object-cover rounded-lg shadow-2xl"
             />
@@ -139,21 +139,21 @@ export default function Home() {
               id: "hoodie-black",
               name: "Tuff Turf Hoodie",
               price: 65,
-              image: "https://images.unsplash.com/photo-1556821552-5f394feea11a?w=500&h=600&fit=crop",
+              image: "https://images.pexels.com/photos/34830019/pexels-photo-34830019.jpeg",
               badge: "Premium",
             },
             {
               id: "tee-hardest",
               name: "Performance Tee",
               price: 35,
-              image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+              image: "https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg",
               badge: "Tuff Turf Certified",
             },
             {
               id: "cap-snapback",
               name: "Studio Cap",
               price: 25,
-              image: "https://images.unsplash.com/photo-1588856391814-5ecb80d3b131?w=500&h=600&fit=crop",
+              image: "https://images.pexels.com/photos/34830019/pexels-photo-34830019.jpeg",
               badge: "Limited Stock",
             },
           ].map((product, idx) => (

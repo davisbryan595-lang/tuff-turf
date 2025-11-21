@@ -63,7 +63,7 @@ export default function CheckoutSuccess() {
           <p className="text-xl text-gray-300 mb-8">{error}</p>
           <Link
             href="/merch"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
           >
             <ArrowLeft size={18} />
             Back to Shop
@@ -190,14 +190,14 @@ export default function CheckoutSuccess() {
               </div>
 
               <div className="space-y-3">
-                <button className="w-full px-6 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all flex items-center justify-center gap-2">
+                <button className="w-full px-6 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all flex items-center justify-center gap-2">
                   <Download size={18} />
                   Download Invoice
                 </button>
 
                 <Link
                   href="/merch"
-                  className="block text-center px-6 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
+                  className="block text-center px-6 py-3 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all"
                 >
                   Continue Shopping
                 </Link>

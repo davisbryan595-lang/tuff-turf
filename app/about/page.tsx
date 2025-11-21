@@ -28,7 +28,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <img
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop"
+              src="https://images.pexels.com/photos/2345342/pexels-photo-2345342.jpeg"
               alt="Lawrence Eaton"
               className="w-full h-full object-cover rounded-lg shadow-2xl"
             />
@@ -73,27 +73,27 @@ export default function About() {
             {[
               {
                 title: "Summer Stage 2024",
-                image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
               },
               {
                 title: "Studio Sessions",
-                image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg",
               },
               {
                 title: "Live Performance",
-                image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/2345342/pexels-photo-2345342.jpeg",
               },
               {
                 title: "Venue Takeover",
-                image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/2716728/pexels-photo-2716728.jpeg",
               },
               {
                 title: "Sound Check",
-                image: "https://images.unsplash.com/photo-1611339555312-e607c04352fa?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg",
               },
               {
                 title: "After Party",
-                image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop",
+                image: "https://images.pexels.com/photos/34766239/pexels-photo-34766239.jpeg",
               },
             ].map((event, idx) => (
               <div
@@ -139,7 +139,7 @@ export default function About() {
         <div className="mt-12 text-center">
           <Link
             href="/merch"
-            className="inline-block px-8 py-4 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105"
+            className="inline-block px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105"
           >
             Explore Full Collection
           </Link>
@@ -186,13 +186,13 @@ export default function About() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/services"
-            className="px-8 py-4 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
+            className="px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
           >
             Book a Service
           </Link>
           <Link
             href="/merch"
-            className="px-8 py-4 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
+            className="px-8 py-4 bg-accent text-accent-foreground font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.8)] transition-all hover:scale-105"
           >
             Shop Merch
           </Link>
