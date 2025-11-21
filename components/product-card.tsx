@@ -159,7 +159,7 @@ export const ProductCard = ({ product, showFeatures = false }: ProductCardProps)
         <button
           onClick={handleBuyNow}
           disabled={product.category === "service" && !canAddToCart}
-          className="w-full px-6 py-2 border-2 border-accent text-accent font-bold rounded-lg hover:bg-accent/10 transition-all disabled:opacity-50"
+          className="w-full px-6 py-2 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50"
         >
           BUY NOW
         </button>
