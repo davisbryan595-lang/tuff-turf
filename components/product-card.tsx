@@ -54,7 +54,7 @@ export const ProductCard = ({ product, showFeatures = false }: ProductCardProps)
           alt={product.name}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
-        <div className="absolute top-4 right-4 bg-accent text-primary px-4 py-2 rounded-full font-bold text-xs">
+        <div className="absolute top-4 right-4 bg-accent text-black px-4 py-2 rounded-full font-bold text-xs">
           {product.badge}
         </div>
       </div>
@@ -106,7 +106,7 @@ export const ProductCard = ({ product, showFeatures = false }: ProductCardProps)
                       }
                       className={`px-3 py-1 text-xs font-bold rounded transition-all ${
                         selectedVariants[variantKey] === option.value
-                          ? "bg-accent text-primary"
+                          ? "bg-accent text-black"
                           : "bg-muted text-gray-300 border border-border hover:border-accent"
                       }`}
                     >
@@ -149,7 +149,7 @@ export const ProductCard = ({ product, showFeatures = false }: ProductCardProps)
         <button
           onClick={handleAddToCart}
           disabled={product.category === "service" && !canAddToCart}
-          className="w-full px-6 py-3 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105 disabled:opacity-50 flex items-center justify-center gap-2 mb-2"
+          className="w-full px-6 py-3 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,212,255,0.6)] transition-all hover:scale-105 disabled:opacity-50 flex items-center justify-center gap-2 mb-2"
         >
           <ShoppingCart size={18} />
           ADD TO CART
@@ -159,7 +159,7 @@ export const ProductCard = ({ product, showFeatures = false }: ProductCardProps)
         <button
           onClick={handleBuyNow}
           disabled={product.category === "service" && !canAddToCart}
-          className="w-full px-6 py-2 bg-accent text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50"
+          className="w-full px-6 py-2 bg-accent text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all disabled:opacity-50"
         >
           BUY NOW
         </button>
